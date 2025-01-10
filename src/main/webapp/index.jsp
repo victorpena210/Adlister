@@ -4,9 +4,11 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>my JSP</title>
+<title>Adlister</title>
 </head>
 <body>
+<h1>Adlister</h1>
 
+<a href="/Adlister/hello">Hello World Servlet</a>
 </body>
 </html>
