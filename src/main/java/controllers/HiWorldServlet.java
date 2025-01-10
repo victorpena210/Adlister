@@ -24,11 +24,14 @@ public class HiWorldServlet extends HttpServlet {
 		String name = request.getParameter("name");
 		if(name==null) {
 			out.println("<h1>Hello, World</h1>");
+			counter++;
 		} else if (name.equals("bgates")) {
 			response.sendRedirect("https://microsoft.com");
+			counter++;
 			return;
 		} else if(name.equals("reset")) {
             out.println("<h1>Hello, World</h1>");
+            counter++;
             reset();
         } else {
             out.println("<h1>Hello, " + name + "</h1>");
